@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="19" name="Customers">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1685535512595</CreatedAt>
+  <LastModifiedAt>1685535512595</LastModifiedAt>
+  <BasePaths>/customers</BasePaths>
+  <Policies>
+    <Policy>Quota-1</Policy>
+    <Policy>Response-Cache-1</Policy>
+    <Policy>Verify-API-Key-1</Policy>
+    <Policy>Basic-Authentication-1</Policy>
+    <Policy>JavaScript</Policy>
+    <Policy>Raise-Fault-1</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>jsc://JavaScript-1.js</Resource>
+  </Resources>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
